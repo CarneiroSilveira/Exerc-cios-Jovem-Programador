@@ -1,0 +1,8 @@
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    tarefa TEXT,
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    concluido BOOLEAN DEFAULT FALSE
+);
+INSERT INTO tasks (nome, tarefa) VALUES ('Tirar o lixo', 'BATATA123');

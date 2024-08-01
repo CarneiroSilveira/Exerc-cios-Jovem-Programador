@@ -1,0 +1,1 @@
+A descrição dos desafios dos exercicios esta neste repositorio https://github.com/renanponick/jovem-programador-2024-exercicios
